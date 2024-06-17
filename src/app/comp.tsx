@@ -1,6 +1,6 @@
 'use client'
 import React from "react"
-import { useAppSelector } from "./redux/hooks"
+import { useAppSelector } from "./redux"
 
 const Comp = ()=>{
     const count = useAppSelector(s => s.counter)

@@ -1,7 +1,7 @@
 'use client'
 import Comp from "./comp";
-import { useAppDispatch, useAppSelector } from "./redux/hooks";
-import { decrement, increment } from "./redux/slices/counter";
+import { useAppDispatch, useAppSelector } from "./redux";
+import { decrement, increment } from "./redux/slice";
 
 export default function Home() {
   const count = useAppSelector((state) => state.counter);
