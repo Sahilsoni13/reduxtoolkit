@@ -1,6 +1,6 @@
-import { configureStore } from "@reduxjs/toolkit";
+import { combineReducers, configureStore } from "@reduxjs/toolkit";
 import counter from "../slice/counter/counter";
-import  count2  from "../slice/counter2/counter2";
+import count2 from "../slice/counter2/counter2";
 // ...
 
 export const store = configureStore({
